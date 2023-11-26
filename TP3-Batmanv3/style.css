@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+.card {
+    display:inline-block;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 196px;
+}
+
+
+.card-body {
+    background-color: aliceblue;
+    padding:  75px 16px 19px 16px;
+    text-align: center;
+}
+
+.card-body a {
+    margin-top: 30px;
+    display: block;
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 16px 36px;
+    background-color: blue;
+
+}
+
+.card-tittle {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.card-header {
+    position: relative;
+    height: 193px;
+    text-align: center; /* Agregamos esta línea para centrar el contenido horizontalmente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+}
+
+.img_batman-avatar {
+    position: absolute;
+    bottom: -50px;
+    left: 90px;
+    border-radius: 50%;
+}
+
+.img_harley-avatar {
+    position: absolute;
+    bottom: -50px;
+    left: 90px;
+    border-radius: 50%;
+}
+
+.img_fondobatman {
+    /*position: absolute;*/
+}
+
+.img_Corazon {
+    position: absolute;
+    top: 15px;
+    left: 21px;
+}
+
+.header_titulo {
+    margin: 1px;
+    text-align: center;
+    background-color:#0496DF;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.footer_titulo {
+    text-align: center;
+    background-color: #0496DF;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: auto; /* Ancla el footer al fondo */
+}
+
+.footer_titulo p {
+    font-size: 20px;
+    color: white;
+}
